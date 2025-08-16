@@ -1,0 +1,23 @@
+Column,Description
+date,"La fecha en que ocurrió el evento sísmico, en formato ISO 8601 (YYYY-MM-DD), lo que permite el análisis temporal."
+time,"La hora en que ocurrió el evento, en formato HH:MM.SS, lo que proporciona una precisión horaria para el evento."
+event name,"Un identificador único para cada evento sísmico, facilitando su referencia y análisis en estudios posteriores."
+latitude,"La latitud del epicentro del terremoto, expresada en grados, que indica la ubicación geográfica en el eje norte-sur."
+longitude,"La longitud del epicentro del terremoto, expresada en grados, que indica la ubicación geográfica en el eje este-oeste."
+depth,"La profundidad del evento sísmico, medida en kilómetros, que indica cuán profundo fue el foco del terremoto en la corteza terrestre."
+Mrr,Componente del tensor de momento sísmico que representa la fuerza y dirección del deslizamiento en el plano del foco del terremoto.
+Mtt,Componente del tensor de momento sísmico que indica las tensiones en la dirección vertical asociadas al evento.
+Mpp,Componente del tensor de momento sísmico que describe las tensiones en la dirección horizontal asociadas al evento.
+Mrt,"Componente del tensor que representa el momento de rotación, que indica cómo se distribuye la energía en el evento."
+Mrp,"Componente del tensor que representa el momento de presión, que indica la compresión en el área del foco del terremoto."
+Mtp,"Componente del tensor que representa el momento de tracción, que indica la tensión en el área del foco del terremoto."
+MrrError,"Error asociado al componente Mrr, que proporciona una medida de la incertidumbre en este valor específico."
+MttError,"Error asociado al componente Mtt, que indica la incertidumbre en la estimación de este componente del tensor."
+MppError,"Error asociado al componente Mpp, que proporciona información sobre la precisión de este valor específico."
+MrtError,"Error asociado al componente Mrt, que indica la incertidumbre en la estimación del momento de rotación."
+MrpError,"Error asociado al componente Mrp, que proporciona información sobre la precisión del momento de presión."
+MtpError,"Error asociado al componente Mtp, que indica la incertidumbre en la estimación del momento de tracción."
+half duration,"La duración media del evento sísmico, medida en segundos, que indica el tiempo durante el cual se produjo el terremoto."
+moment,"El momento sísmico total del evento, que es una medida de la energía liberada durante el terremoto."
+magnitude,"La magnitud del evento sísmico, que es una escala logarítmica que mide la energía liberada, siendo un indicador clave de su impacto."
+exponent,"Exponente utilizado en las notaciones científicas de los valores, que indica la escala de las cifras presentadas en el dataset."
